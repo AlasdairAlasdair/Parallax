@@ -25,6 +25,7 @@
     left: 0;
     right: 0;
     bottom: 0;
+    opacity: 0.9;
   }
 
   .parallax__layer--fore {
@@ -125,7 +126,7 @@
     z-index: 3; /* slide under groups 1 and 3 */
   }
   #group2 .parallax__layer--back {
-    background: rgb(123,210,102);
+    /*background: rgb(123,210,102);*/
   }
 
   #group3 {
@@ -141,7 +142,10 @@
   #group4 .parallax__layer--deep {
     background: rgb(184,223,101);
   }
-
+  #group4 .parallax__layer--base {
+    background: rgb(245,235,100);
+  }
+  
   #group5 {
     z-index: 3; /* slide over group 4 and 6 */
   }
@@ -153,7 +157,7 @@
     z-index: 2; /* slide under group 5 and 7 */
   }
   #group6 .parallax__layer--back {
-    background: rgb(245,235,100);
+    /*background: rgb(245,235,100);*/
   }
 
   #group7 {
