@@ -56,6 +56,16 @@
   /* Debugger styles - used to show the effect
   --------------------------------------------- */
 
+  .colours {
+    position: fixed;
+    top: 0;
+    left: 8.0em;
+    z-index: 999;
+    background: rgba(0,0,0,.85);
+    color: #fff;
+    padding: .5em;
+    border-radius: 0 0 5px 5px;
+  }
   .debug {
     position: fixed;
     top: 0;
@@ -72,13 +82,18 @@
  }
   .debug-on .parallax__layer {
     box-shadow: 0 0 0 2px #000;
-    opacity: 0.9;
+    /*opacity: 0.9;*/
   }
   .parallax__group {
     -webkit-transition: -webkit-transform 0.5s;
     transition: transform 0.5s;
   }
 
+  .colours-off .parallax__group,
+  .colours-off .parallax__layer{
+    /*opacity: 0.1;*/
+    background: transparent !important;
+  }
 
   /* demo styles
   --------------------------------------------- */
