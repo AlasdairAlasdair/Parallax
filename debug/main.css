@@ -132,9 +132,15 @@
   #group4 {
     z-index: 2; /* slide under group 3 and 5 */
   }
-  #group4 .parallax__layer--deep {
+  #group4 .parallax__layer--one {
     background: rgb(184,223,101);
   }
-  #group4 .parallax__layer--base {
+  #group4 .parallax__layer--two {
     background: rgb(245,235,100);
+  }
+  #group4 .parallax__layer--three {
+    background: rgb(223,184,101);
+  }
+  #group4 .parallax__layer--four {
+    background: rgb(100,235,180);
   }
