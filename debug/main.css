@@ -29,14 +29,14 @@
   }
 
   .parallax__layer--one {
-    -webkit-transform: translateZ(90px) scale(.7);
-    transform: translateZ(90px) scale(.7);
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
     z-index: 1;
   }
 
   .parallax__layer--two {
-    -webkit-transform: translateZ(-600px) scale(3);
-    transform: translateZ(-600px) scale(3);
+    -webkit-transform: translateZ(90px) scale(.7);
+    transform: translateZ(90px) scale(.7);
     z-index: 2;
   }
 
@@ -47,10 +47,38 @@
   }
 
   .parallax__layer--four {
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
+    -webkit-transform: translateZ(-600px) scale(3);
+    transform: translateZ(-600px) scale(3);
     z-index: 4;
   }
+
+  /*.parallax__layer--five {
+    -webkit-transform: translateZ(90px) scale(4);
+    transform: translateZ(90px) scale(4);
+    z-index: 5;
+  }
+
+  .parallax__layer--six {
+    -webkit-transform: translateZ(-600px) scale(5);
+    transform: translateZ(-600px) scale(5);
+    z-index: 6;
+  }
+
+  .parallax__layer--seven {
+    -webkit-transform: translateZ(-300px) scale(6);
+    transform: translateZ(-300px) scale(6);
+    z-index: 7;
+  }
+
+  .parallax__layer--eight {
+    -webkit-transform: translateZ(0) scale(7);
+    transform: translateZ(0) scale(7);
+    z-index: 8;
+  }*/
+
+  
+  
+
 
   /* Debugger styles - used to show the effect
   --------------------------------------------- */
