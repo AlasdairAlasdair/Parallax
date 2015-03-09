@@ -17,31 +17,59 @@
   </div>
   <div class="parallax">
     <div id="group4" class="parallax__group">
-      <div class="parallax__layer parallax__layer--base">
+      <div class="parallax__layer parallax__layer--one">
         <div class="title">
           <svg height="400" width="450">
             <path id="arc1" fill="none" stroke="#446688" stroke-width="5"/>
           </svg>
         </div>
       </div>
-      <div class="parallax__layer parallax__layer--fore">
+      <div class="parallax__layer parallax__layer--one">
+        <div class="title">
+          <svg height="400" width="450">
+            <path id="arc5" fill="none" stroke="#446688" stroke-width="5"/>
+          </svg>
+        </div>
+      </div>
+      <div class="parallax__layer parallax__layer--two">
         <div class="title">
           <svg height="400" width="450">
             <path id="arc2" fill="none" stroke="#446688" stroke-width="5"/>
           </svg>
         </div>
       </div>
-      <div class="parallax__layer parallax__layer--back">
+      <div class="parallax__layer parallax__layer--two">
+        <div class="title">
+          <svg height="400" width="450">
+            <path id="arc6" fill="none" stroke="#446688" stroke-width="5"/>
+          </svg>
+        </div>
+      </div>
+      <div class="parallax__layer parallax__layer--three">
         <div class="title">
           <svg height="400" width="450">
             <path id="arc3" fill="none" stroke="#446688" stroke-width="5"/>
           </svg>
         </div>
       </div>
-      <div class="parallax__layer parallax__layer--deep">
+      <div class="parallax__layer parallax__layer--three">
+        <div class="title">
+          <svg height="400" width="450">
+            <path id="arc7" fill="none" stroke="#446688" stroke-width="5"/>
+          </svg>
+        </div>
+      </div>
+      <div class="parallax__layer parallax__layer--four">
         <div class="title">
           <svg height="400" width="450">
             <path id="arc4" fill="none" stroke="#446688" stroke-width="5"/>
+          </svg>
+        </div>
+      </div>
+      <div class="parallax__layer parallax__layer--four">
+        <div class="title">
+          <svg height="400" width="450">
+            <path id="arc8" fill="none" stroke="#446688" stroke-width="5"/>
           </svg>
         </div>
       </div>
@@ -57,10 +85,14 @@
 
   <script>
   window.onload = function() {
-  document.getElementById("arc1").setAttribute("d", describeArc(100, 200, 50, 0, 90));
-  document.getElementById("arc2").setAttribute("d", describeArc(100, 200, 50, 90, 180));
-  document.getElementById("arc3").setAttribute("d", describeArc(100, 200, 50, 180, 270));
-  document.getElementById("arc4").setAttribute("d", describeArc(100, 200, 50, 270, 360));
+  document.getElementById("arc1").setAttribute("d", describeArc(100, 200, 50, 0, 45));
+  document.getElementById("arc2").setAttribute("d", describeArc(100, 200, 50, 45, 90));
+  document.getElementById("arc3").setAttribute("d", describeArc(100, 200, 50, 90, 135));
+  document.getElementById("arc4").setAttribute("d", describeArc(100, 200, 50, 135, 180));
+  document.getElementById("arc5").setAttribute("d", describeArc(100, 200, 50, 180, 225));
+  document.getElementById("arc6").setAttribute("d", describeArc(100, 200, 50, 225, 270));
+  document.getElementById("arc7").setAttribute("d", describeArc(100, 200, 50, 270, 315));
+  document.getElementById("arc8").setAttribute("d", describeArc(100, 200, 50, 315, 360));
 };
   
 
