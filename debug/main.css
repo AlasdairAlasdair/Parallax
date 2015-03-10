@@ -4,7 +4,7 @@
 
   .parallax {
     height: 500px; /* fallback for older browsers */
-    height: 100vh;
+    height: 75vh;
     overflow-x: hidden;
     overflow-y: auto;
     -webkit-perspective: 300px;
